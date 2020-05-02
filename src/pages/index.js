@@ -22,7 +22,7 @@ import "../App.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="Home" />
+    <SEO title="NJT Automation Salvage" />
 
     <div className="header">
       <h1> Keeping The Machines Alive </h1>
