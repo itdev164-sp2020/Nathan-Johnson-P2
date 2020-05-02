@@ -1,0 +1,608 @@
+@media only screen and (max-width: 600px) {
+  .partsImage1 {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1 {
+    height: 200px;
+    background-color: #ededed;
+  }
+  .section1 .block {
+    text-align: center;
+  }
+
+  .body1 {
+    margin-top: 600px;
+  }
+}
+
+@font-face {
+  font-family: "FunCity";
+  src: local("FunCity"),
+    url(./fonts/FunCityLevel2Stencil.otf) format("opentype");
+}
+
+@font-face {
+  font-family: "Robot";
+  src: local("ROBOT"), url(./fonts/ROBOT.ttf) format("opentype");
+}
+
+.appRoot {
+  overflow-y: scroll;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.App {
+  overflow-y: scroll;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  min-width: 200px;
+  padding: 5px;
+  max-width: 100% !important;
+  margin: 0 auto;
+  width: 100vw;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+}
+
+.body {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header {
+  background-image: url(./images/cityscape.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vw;
+  max-height: 500px;
+}
+
+.header1 {
+  background-image: url(./images/humanrobot.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 90vw;
+  max-height: 300px;
+  padding-top: 200px;
+}
+
+.quote {
+  width: "100%";
+  margin: 0 auto;
+  color: white;
+  font-weight: "thin";
+  font-family: "Times New Roman", Times, serif;
+  background-color: #3131317c;
+}
+.quote h1 {
+  font-weight: 100;
+  font-style: italic;
+}
+.quoteText {
+  max-width: 900px;
+  margin: 0 auto;
+  font-size: calc(0.2rem + 0.5vw);
+  padding: 10px;
+  font-style: italic;
+}
+.header h1 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 3vw);
+  font-weight: 100;
+  color: white;
+  margin: 0px;
+  padding-top: calc(2vw + 220px);
+  text-align: center;
+}
+.header h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 1vw);
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.section {
+  background-color: #ededed;
+  height: 375px;
+}
+.section1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.section1 h1 {
+  margin: 0;
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 100;
+  font-size: calc(2rem + 2vw);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.section1 .block {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 80%;
+  background-color: white;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-color: #a1a1a1;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #959595;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.section1 .block:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  -moz-box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  color: rgb(50, 68, 151);
+  cursor: pointer;
+  position: relative;
+  position: relative;
+  top: -5px;
+}
+
+.section1 .block:active {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  -moz-box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  border-color: #67c7ff;
+  color: rgb(50, 68, 151);
+  cursor: pointer;
+  position: relative;
+  position: relative;
+  top: -5px;
+}
+
+.block img {
+  height: 110px;
+  width: 110px;
+  margin: 15px 35px;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.block div {
+  margin-left: 15px;
+  text-decoration: none;
+}
+.block .text {
+  text-decoration: none;
+}
+
+.section1 .firstchild {
+  width: 260px;
+}
+
+.phone {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 3vw);
+  text-decoration: underline;
+  color: white;
+}
+
+.phone:hover {
+  color: rgb(132, 132, 255);
+  cursor: pointer;
+}
+
+.logo {
+  font-family: FunCity;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+
+.logo:hover {
+  color: rgb(255, 238, 0);
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.wanted h1 {
+  text-decoration: none;
+  font-size: calc(1rem + 3vw);
+  text-align: center;
+  color: rgb(95, 95, 95);
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  position: relative;
+}
+
+.wanted h1:hover {
+  text-decoration: none;
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.parts {
+  margin-left: 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.parts h1 {
+  color: rgb(97, 97, 97);
+  font-weight: 400;
+}
+
+.parts h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 200;
+}
+
+.partsImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.partsImage1 {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.images {
+  width: 100%;
+  max-width: 1400px;
+}
+
+.images img {
+  width: 100%;
+  max-width: 1400px;
+  padding-bottom: 20px;
+}
+.worker {
+  position: relative;
+}
+
+.worker h1 {
+  position: absolute;
+  text-align: right;
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 100;
+  color: white;
+  font-size: calc(0.7rem + 3vw);
+  float: right;
+  right: 8%;
+  top: 10%;
+  width: 100%;
+}
+
+.machines {
+  position: relative;
+  text-shadow: 2px 2px 5px rgb(56, 56, 56);
+}
+
+.machines h1 {
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  z-index: 3;
+  color: white;
+  font-weight: 200;
+  font-family: FunCity;
+}
+
+.machines h1 h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  line-height: 0;
+  font-size: calc(0.7rem + 3.5vw);
+  opacity: 0.7;
+}
+.machines h1 h2:hover {
+  text-decoration: underline;
+  cursor: pointer;
+  opacity: 0.99;
+}
+
+.globe {
+  position: relative;
+}
+
+.globe h1 {
+  position: absolute;
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 300;
+  color: rgb(235, 208, 121);
+  font-size: calc(0.5rem + 1.5vw);
+  width: 100%;
+  padding: 3%;
+}
+
+.divider {
+  height: 20px;
+  font-size: 1px;
+  color: rgb(235, 235, 235);
+}
+
+.divider h2 {
+  font-size: 1px;
+  color: rgb(235, 235, 235);
+}
+
+.navBar {
+  z-index: 3;
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  .section {
+    background-color: #ededed;
+    height: 375px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section {
+    height: 450px;
+    background-color: rgb(160, 19, 19);
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .wanted h1 {
+    margin-top: 660px;
+  }
+  .wanted1 h1 {
+    margin-top: 60px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1 {
+    height: 450px;
+    background-color: #ededed;
+  }
+  ,
+  .section1 .block1 {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .section1 {
+    height: 450px;
+    background-color: #ededed;
+  }
+  ,
+  .section1 .block1 {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .section1 .firstchild {
+    position: relative;
+  }
+}
+@media only screen and (min-width: 600px) {
+  .section1 .firstchilds {
+    position: absolute;
+    overflow: hidden;
+  }
+}
+
+@font-face {
+  font-family: "FunCity";
+  src: local("FunCity"),
+    url(./fonts/FunCityLevel2Stencil.otf) format("opentype");
+}
+
+.App {
+  overflow-y: scroll;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  min-width: 300px;
+  max-width: 100% !important;
+  overflow-x: hidden !important;
+}
+
+.theHeader {
+  background-position: center;
+  background-size: cover;
+  height: 90vw;
+  max-height: 500px;
+}
+
+.header h1 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 3vw);
+  font-weight: 100;
+  color: white;
+  margin: 0px;
+  padding-top: calc(2vw + 220px);
+  text-align: center;
+}
+.header h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 1vw);
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+.theHeader h1 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 3vw);
+  font-weight: 100;
+  color: white;
+  margin: 0px;
+  padding-top: calc(2vw + 220px);
+  text-align: center;
+}
+.theHeader h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-size: calc(1rem + 1vw);
+  font-weight: 100;
+  color: white;
+  text-align: center;
+  margin: 0;
+}
+
+.section1 {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.section1 h1 {
+  margin: 0;
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 100;
+  font-size: calc(2rem + 2vw);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+.section0 {
+  margin: 0 auto;
+  padding-top: 5px;
+}
+.section0 {
+  background-color: #ededed;
+  height: calc(10rem + 10vw);
+}
+
+.section0 h1 {
+  margin: 0;
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 100;
+  font-size: calc(2rem + 2vw);
+  padding-left: 20px;
+  padding-bottom: 20px;
+}
+
+.section1 .block1 {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  width: 80%;
+  background-color: white;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-color: #a1a1a1;
+  border-style: solid;
+  border-width: 2px;
+  margin: 0 auto;
+  margin-bottom: 5px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #959595;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.section1 .block1:hover {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  -moz-box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  box-shadow: inset 0px 0px 0px 3px #a1a1a1;
+  color: rgb(50, 68, 151);
+  cursor: pointer;
+  position: relative;
+  position: relative;
+  top: -5px;
+}
+
+.section1 .block1:active {
+  -webkit-box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  -moz-box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  box-shadow: inset 0px 0px 0px 3px #67c7ff;
+  border-color: #67c7ff;
+  color: rgb(50, 68, 151);
+  cursor: pointer;
+  position: relative;
+  position: relative;
+  top: -5px;
+}
+
+.block1 img {
+  display: flex;
+  height: 110px;
+  width: 110px;
+  margin: 15px auto;
+  justify-content: center;
+  opacity: 0.6;
+  text-decoration: none;
+}
+.block1 div {
+  text-decoration: none;
+}
+.block1 .text {
+  text-decoration: none;
+}
+
+.section1 .firstchild {
+  width: 260px;
+  padding-top: 10px;
+}
+
+.text {
+  text-align: center;
+}
+
+.wanted1 h1 {
+  font-size: calc(1rem + 2vw);
+  text-align: center;
+  color: rgb(95, 95, 95);
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  position: relative;
+}
+
+.wanted1 h1:hover {
+  color: rgb(15, 15, 15);
+  cursor: pointer;
+}
+
+.parts {
+  margin-left: 5%;
+  max-width: 1400px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.parts h1 {
+  color: rgb(97, 97, 97);
+  font-weight: 400;
+}
+
+.parts h2 {
+  font-family: "Helvetica Neue", "Cantarell", "Fira Sans", "Droid Sans";
+  font-weight: 200;
+}
+
+.partsImage {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.firstchilds {
+  overflow: hidden;
+}

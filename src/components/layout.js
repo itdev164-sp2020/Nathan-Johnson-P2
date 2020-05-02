@@ -10,7 +10,23 @@ import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
 
 import Header from "./header"
-import "./layout.css"
+import { ThemeProvider as MuiThemeProvider } from "@material-ui/core/styles"
+import createMuiTheme from "@material-ui/core/styles/createMuiTheme"
+import Footer from "./footer"
+
+const theme = createMuiTheme({
+  palette: {
+    primary: {
+      main: "#343434",
+    },
+    secondary: {
+      main: "#6d6d6d",
+    },
+  },
+  home: {
+    color: "#343434",
+  },
+})
 
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
@@ -25,21 +41,18 @@ const Layout = ({ children }) => {
 
   return (
     <>
-      <Header siteTitle={data.site.siteMetadata.title} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
-      </div>
+      <MuiThemeProvider theme={theme}>
+        <Header siteTitle={data.site.siteMetadata.title} />
+        <div
+          style={{
+            margin: `0 auto`,
+            padding: 0,
+          }}
+        >
+          <main>{children}</main>
+          <Footer></Footer>
+        </div>
+      </MuiThemeProvider>
     </>
   )
 }
