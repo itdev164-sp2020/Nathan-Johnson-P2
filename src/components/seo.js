@@ -90,19 +90,19 @@ function SEO({
         },
         {
           name: `keywords`,
-          content: { keywords },
+          content:  keywords ,
         },
         {
           name: "geo.placename",
-          content: { placename },
+          content:  placename ,
         },
         {
           name: "geo.position",
-          content: { position },
+          content:  position ,
         },
         {
           name: "ICBM",
-          content: { position },
+          content:  position ,
         },
       ].concat(meta)}
     />

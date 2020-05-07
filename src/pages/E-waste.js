@@ -5,6 +5,7 @@ import { Link } from "gatsby-theme-material-ui"
 
 // css
 import "../App.css"
+import SEO from "../components/seo"
 
 //componenets
 import Layout from "../components/layout"
@@ -154,6 +155,10 @@ class eWaste extends Component {
     return (
       <div>
         <Layout>
+
+ <SEO title="Electronics and E-Waste Recycling and Removal" 
+              description="Industrial, commercial, and manufacturing electronics waste wanted, E-WASTE WANTED"/>
+
           <div className={classes.header1}>
             <div className={classes.wanted}>
               Industrial E-Waste Removal and Recycling

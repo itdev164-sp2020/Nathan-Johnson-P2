@@ -22,7 +22,10 @@ import "../App.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="NJT Automation Salvage" />
+    <SEO title="NJT Automation Salvage" 
+    placename="Milwaukee"
+    keywords="Milwaukee, automation, industrial, electronics, manufacturing, buy, sell"
+    position='43.057806;-88.1075137'/>
 
     <div className="header">
       <h1> Keeping The Machines Alive </h1>

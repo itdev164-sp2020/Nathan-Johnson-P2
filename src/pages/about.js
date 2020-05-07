@@ -1,6 +1,8 @@
 import React, { Component } from "react"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby-theme-material-ui"
+import SEO from "../components/seo"
+
 
 // jpeg icons
 import handshake from "../images/Icons/handshake.jpg"
@@ -18,6 +20,8 @@ class about extends Component {
     return (
       <div>
         <Layout>
+         <SEO title="Industrial Salvage for Manufacturing Automation" 
+              description="In 30 years, the cover of Time Magazine will very likely be a very expensive robot. It remembers better than you and it counts faster than you. In 40 years, it will be broken and you can’t get replacement parts or afford a new robot."/>
           <div className="header1"></div>
           <div className="quote">
             <div className="quoteText">

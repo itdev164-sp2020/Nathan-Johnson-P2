@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import withStyles from "@material-ui/core/styles/withStyles"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby-theme-material-ui"
-
+import SEO from "../components/seo"
 // css
 import "../App.css"
 
@@ -126,6 +126,11 @@ export class location extends Component {
     return (
       <div>
         <Layout>
+
+ <SEO title="Electronics and E-Waste in Milwaukee Wisconsin" 
+              description="NJT is located in Milwaukee WI 53212 and is looking to purchase surplus electronics and e-waste"/>
+
+
           <div className={classes.header1}>
             <iframe
               title="Map"

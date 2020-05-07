@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Industrial E Waste and Electronics Recycling`,
+    title: `NJT Automation Salvage and Industrial E-Waste`,
     description: `NJT Automation Salvage wants to purchase surplus manufacturing electronics and recycle commercial e-waste `,
-    author: `@gatsbyjs`,
+    author: `Nathan Johnson`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,

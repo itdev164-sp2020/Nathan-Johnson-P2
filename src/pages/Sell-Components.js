@@ -3,6 +3,8 @@ import withStyles from "@material-ui/core/styles/withStyles"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby-theme-material-ui"
 
+import SEO from "../components/seo"
+
 // css
 import "../App.css"
 
@@ -148,7 +150,7 @@ class Sell extends Component {
     return (
       <div>
         <Layout>
-          <div className={classes.header1}>
+          <SEO title="Sell Allen Bradley and Siemens Automation Components" description="NJT is looking to buy your surplus equipment" />          <div className={classes.header1}>
             <div className={classes.wanted}>
               <div className={classes.h1}>WANTED</div>
               <div className={classes.divider}></div>

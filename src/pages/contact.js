@@ -2,6 +2,7 @@ import React, { Component } from "react"
 import withStyles from "@material-ui/core/styles/withStyles"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby-theme-material-ui"
+import SEO from "../components/seo"
 
 import Layout from "../components/layout"
 // css
@@ -150,6 +151,9 @@ export class contact extends Component {
     return (
       <div>
         <Layout>
+        <SEO title="Contact NJT to sell electronics" 
+              description="Call, text or email - Sell Allen Bradley and Siemens Parts"/>
+
           <div className={classes.header1}>
             <div className="theHeader">
               <h1> Keeping The Machines Alive </h1>

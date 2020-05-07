@@ -2,7 +2,7 @@ import React, { Component } from "react"
 import withStyles from "@material-ui/core/styles/withStyles"
 import Grid from "@material-ui/core/Grid"
 import { Link } from "gatsby-theme-material-ui"
-
+import SEO from "../components/seo"
 // css
 import "../App.css"
 
@@ -126,6 +126,7 @@ export class sourcing extends Component {
     return (
       <div>
         <Layout>
+         <SEO title="We will source parts for your industrial manufacturing machines" description="Source rare automation electronics" />  
           <div className={classes.header1}>
             <div className={classes.headerText}>
               <div>
