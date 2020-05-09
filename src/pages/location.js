@@ -126,10 +126,10 @@ export class location extends Component {
     return (
       <div>
         <Layout>
-
- <SEO title="Electronics and E-Waste in Milwaukee Wisconsin" 
-              description="NJT is located in Milwaukee WI 53212 and is looking to purchase surplus electronics and e-waste"/>
-
+          <SEO
+            title="Electronics and E-Waste in Milwaukee Wisconsin"
+            description="NJT is located in Milwaukee WI 53212 and is looking to purchase surplus electronics and e-waste"
+          />
 
           <div className={classes.header1}>
             <iframe
@@ -212,15 +212,27 @@ export class location extends Component {
 
             <div className={classes.locations}>
               <h1>Equipment pickups available:</h1>
-              <div>Milwaukee, Wisconsin</div>
-              <div>Madison, Wisconsin</div>
-              <div>Green Bay, Wisconsin</div>
-              <div>Sheboygan, Wisconsin</div>
-              <div>Chicago, Illinois</div>
-              <div>Rockford, Illinois</div>
-              <div>Gran Rapids, Michigan</div>
-              <div>Detroit, Michigan</div>
-              <div>All midwest USA!</div>
+              <div>
+                <Link to="/Milwaukee">Milwaukee, Wisconsin</Link>
+              </div>
+              <div>
+                <Link to="/Madison">Madison, Wisconsin</Link>
+              </div>
+              <div>
+                <Link to="/Green%20Bay">Green Bay, Wisconsin</Link>
+              </div>
+              <div>
+                <Link to="/Sheboygan">Sheboygan, Wisconsin</Link>
+              </div>
+              <div>
+                <Link to="/Chicago">Chicago, Illinois</Link>
+              </div>
+              <div>
+                <Link to="/Rockford">Rockford, Illinois</Link>
+              </div>
+              <div>
+                <Link to="/contact">All midwest USA!</Link>
+              </div>
             </div>
             <img
               src={map}

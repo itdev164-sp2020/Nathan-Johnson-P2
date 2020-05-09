@@ -24,6 +24,8 @@ import recycle from "../images/Icons/recycle.png"
 import Card from "@material-ui/core/Card"
 import Typography from "@material-ui/core/Typography"
 import CardContent from "@material-ui/core/CardContent"
+import Button from "@material-ui/core/Button"
+import TextField from "@material-ui/core/TextField"
 
 //styles
 const styles = theme => ({
@@ -130,6 +132,14 @@ const styles = theme => ({
     marginBottom: 20,
     fontSize: "2rem",
   },
+  form: {
+    width: "50%",
+    margin: "0 auto",
+  },
+  centered: {
+    margin: 20,
+    textAlign: "center",
+  },
 })
 
 class eWaste extends Component {
@@ -155,9 +165,10 @@ class eWaste extends Component {
     return (
       <div>
         <Layout>
-
- <SEO title="Electronics and E-Waste Recycling and Removal" 
-              description="Industrial, commercial, and manufacturing electronics waste wanted, E-WASTE WANTED"/>
+          <SEO
+            title="Electronics and E-Waste Recycling and Removal"
+            description="Industrial, commercial, and manufacturing electronics waste wanted, E-WASTE WANTED"
+          />
 
           <div className={classes.header1}>
             <div className={classes.wanted}>
@@ -331,6 +342,73 @@ class eWaste extends Component {
                 <div>Entire Midwest USA</div>
               </h1>
             </Link>
+
+            <div>
+              <div>
+                <form
+                  action={`mailto:nathan@njtautomation.com?subject=E-Waste`}
+                  method="post"
+                  enctype="text/plain"
+                  className={classes.form}
+                >
+                  <h2> Submit An E-Waste Request: </h2>
+                  <TextField
+                    name="Name"
+                    type="text"
+                    label="Name / Company"
+                    multiline
+                    rows="2"
+                    className={classes.textField}
+                    placeholder="Name"
+                    onChange={this.handleChange}
+                    fullWidth
+                  />
+                  <TextField
+                    name="Description"
+                    type="text"
+                    label="Description of Items to Be Recycled"
+                    multiline
+                    rows="2"
+                    className={classes.textField}
+                    placeholder="Description"
+                    onChange={this.handleChange}
+                    fullWidth
+                  />
+                  <TextField
+                    name="Email Address"
+                    type="text"
+                    label="Email Address"
+                    placeholder="Email"
+                    multiline
+                    rows="2"
+                    className={classes.textField}
+                    onChange={this.handleChange}
+                    fullWidth
+                  />
+                  <TextField
+                    name="Location"
+                    type="text"
+                    label="Location"
+                    placeholder="Location"
+                    multiline
+                    rows="2"
+                    className={classes.textField}
+                    onChange={this.handleChange}
+                    fullWidth
+                  />
+                  <div className={classes.centered}>
+                    <Button
+                      type="submit"
+                      variant="contained"
+                      color="primary"
+                      className={classes.Button}
+                    >
+                      Submit
+                    </Button>
+                  </div>
+                </form>
+              </div>
+            </div>
           </div>
         </Layout>
       </div>

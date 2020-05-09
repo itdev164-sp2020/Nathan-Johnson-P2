@@ -4,7 +4,191 @@
     "state": "Wisconsin",
     "county": "Milwaukee",
     "lat": 41.870888,
-    "log": -87.6798004,
-    "latlng": [41.870888, -87.6798004]
+    "lng": -87.6798004,
+    "info": "Milwaukee is a city in the U.S. state of Wisconsin on Lake Michigan's western shore. It's known for its breweries, many of which offer tours chronicling its role in the beer industry. Overlooking the Menomonee River, the Harley-Davidson Museum displays classic motorcycles, including one of Elvis Presley’s. Nearby is the Milwaukee Public Museum, with its large-scale European Village and a recreation of old Milwaukee.The founding location of Rockwell Automation. The largest company in the world that is dedicated to industrial automation and information. Across the globe, the flagship Allen-Bradley and Rockwell automation product brands are recognized for market dominance."
+  },
+  {
+    "name": "Waukesha",
+    "state": "Wisconsin",
+    "county": "Waukesha",
+    "lat": 43.0052701,
+    "lng": -88.3093717,
+    "info": "Waukesha is a city in and the county seat of Waukesha County, Wisconsin, United States. It is part of the Milwaukee metropolitan area. Its population was 70,718 at the 2010 census. The city is adjacent to the Town of Waukesha.Wikipedia"
+  },
+  {
+    "name": "West Allis",
+    "state": "Wisconsin",
+    "county": "Milwaukee",
+    "lat": 43.0042039,
+    "lng": -88.0575327,
+    "info": "West Allis is a city in Milwaukee County, Wisconsin, United States. A suburb of Milwaukee, it is part of the Milwaukee metropolitan area. The population was 60,411 at the 2010 census.Wikipedia"
+  },
+  {
+    "name": "Wauwatosa",
+    "state": "Wisconsin",
+    "county": "Milwaukee",
+    "lat": 43.0042039,
+    "lng": -88.0575327,
+    "info": "Wauwatosa is a city in Milwaukee County, Wisconsin, United States. The population was 46,396 at the 2010 census. Wauwatosa is located immediately west of Milwaukee, and is a part of the Milwaukee metropolitan area. It is named after the Potawatomi Chief Wauwataesie and the Potawatomi word for firefly.Wikipedia"
+  },
+  {
+    "name": "Greenfield",
+    "state": "Wisconsin",
+    "county": "Milwaukee",
+    "lat": 42.9604059,
+    "lng": -88.0266883,
+    "info": "Greenfield is a city in Milwaukee County, Wisconsin, United States. A suburb of Milwaukee, Greenfield is one of many bedroom communities in the Milwaukee metropolitan area. The population was 36,720 at the 2010 census.Wikipedia"
+  },
+  {
+    "name": "New Berlin",
+    "state": "Wisconsin",
+    "county": "Waukesha",
+    "lat": 42.9604059,
+    "lng": -88.0266883,
+    "info": "New Berlin is a city in Waukesha County, Wisconsin, United States. The population was 39,584 at the 2010 census, making it the second-largest community in Waukesha County after the city of Waukesha. New Berlin is on Waukesha County's eastern border.Wikipedia"
+  },
+  {
+    "name": "Brookfield",
+    "state": "Wisconsin",
+    "county": "Waukesha",
+    "lat": 42.9604059,
+    "lng": -88.0266883,
+    "info": ""
+  },
+  {
+    "name": "Menomonee Falls",
+    "state": "Wisconsin",
+    "county": "Waukesha",
+    "lat": 43.1486302,
+    "lng": -88.1596492,
+    "info": "Brookfield is a city located in Waukesha County, Wisconsin, United States in the Milwaukee metropolitan area. It had a population of 37,920 in the 2010 census. Brookfield is the third largest city in Waukesha County. The city is adjacent to the Town of Brookfield.Wikipedia"
+  },
+  {
+    "name": "South Milwaukee",
+    "state": "Wisconsin",
+    "county": "Milwaukee",
+    "lat": 42.9116961,
+    "lng": -87.8782399,
+    "info": "South Milwaukee is a city in Milwaukee County, Wisconsin, United States. The population was 21,156 at the 2010 census.Wikipedia"
+  },
+  {
+    "name": "Racine",
+    "state": "Wisconsin",
+    "county": "Racine",
+    "lat": 42.9116961,
+    "lng": -87.8782399,
+    "info": "Racine is a city in and the county seat of Racine County, Wisconsin, United States. It is located on the shore of Lake Michigan at the mouth of the Root River. Racine is located 22 miles south of Milwaukee and is part of the Greater Milwaukee Area.Wikipedia"
+  },
+  {
+    "name": "Kenosha",
+    "state": "Wisconsin",
+    "county": "Racine",
+    "lat": 42.5880395,
+    "lng": -87.9718361,
+    "info": "Kenosha is a Wisconsin city on Lake Michigan. The waterfront Kenosha Public Museum has mammoth skeletons and a model Native American village. Nearby, the Civil War Museum explores the war’s impact on the region. The Dinosaur Discovery Museum has a collection of dinosaur fossils. Southport Light Station Museum includes exhibits in an 1860s lighthouse keeper’s home. The Southport Lighthouse offers views from the top."
+  },
+  {
+    "name": "Waterford",
+    "state": "Wisconsin",
+    "county": "Racine",
+    "lat": 42.5880395,
+    "lng": -87.9718361,
+    "info": "Waterford is a village in Racine County, Wisconsin, United States. The population was 5,368 at the 2010 census."
+  },
+  {
+    "name": "Franklin",
+    "state": "Wisconsin",
+    "county": "Milwaukee",
+    "lat": 42.8869266,
+    "lng": -88.0446347,
+    "info": "Franklin is a city in Milwaukee County, Wisconsin, United States. It is a suburb of Milwaukee with a population of 35,451 as of the 2010 census.Wikipedia"
+  },
+  {
+    "name": "Grafton",
+    "state": "Wisconsin",
+    "county": "Ozaukee",
+    "lat": 42.8869266,
+    "lng": -88.0446347,
+    "info": "Grafton is a village in Ozaukee County, Wisconsin, United States. Located about 20 miles north of Milwaukee and in close proximity to Interstate 43, it is a suburban community in the Milwaukee metropolitan area. The village incorporated in 1896, and at the time of the 2010 census the population was 11,459."
+  },
+  {
+    "name": "Port Washington",
+    "state": "Wisconsin",
+    "county": "Ozaukee",
+    "lat": 42.8869266,
+    "lng": -88.0446347,
+    "info": "Port Washington is the county seat of Ozaukee County in the U.S. state of Wisconsin. Located on Lake Michigan's western shore east of Interstate 43, the community is a suburb in the Milwaukee metropolitan area 27 miles north of the City of Milwaukee.Wikipedia"
+  },
+  {
+    "name": "Sheboygan",
+    "state": "Wisconsin",
+    "county": "Sheboygan",
+    "lat": 43.7444861,
+    "lng": -87.7655835,
+    "info": "Sheboygan is a city in and the county seat of Sheboygan County, Wisconsin, United States. The population was 49,288 at the 2010 census. It is the principal city of the Sheboygan, Wisconsin Metropolitan Statistical Area, which has a population of 115,507.Wikipedia"
+  },
+  {
+    "name": "Fond du Lac",
+    "state": "Wisconsin",
+    "county": "Fond du Lac",
+    "lat": 43.7444861,
+    "lng": -87.7655835,
+    "info": "Fond du Lac is a city in Fond du Lac County, Wisconsin, United States. The population was 43,021 at the 2010 census. The city forms the core of the United States Census Bureau's Fond du Lac Metropolitan Statistical Area, which includes all of Fond du Lac County.Wikipedia"
+  },
+  {
+    "name": "Oshkosh",
+    "state": "Wisconsin",
+    "county": "Winnebago",
+    "lat": 43.7444861,
+    "lng": -87.7655835,
+    "info": "Oshkosh is a city in Winnebago County, Wisconsin, United States, located where the Fox River enters Lake Winnebago from the west. The population was 66,083 at the 2010 census. The city is located adjacent to the Town of Oshkosh.Wikipedia"
+  },
+  {
+    "name": "Appleton",
+    "state": "Wisconsin",
+    "county": "Winnebago",
+    "lat": 44.7596038,
+    "lng": -87.8425256,
+    "info": "Appleton is a city north of Lake Winnebago, in Wisconsin. Overlooking the Fox River, the 1882 Hearthstone Historic House Museum has original Thomas Edison light fixtures. Nearby, in an old paper mill, the Paper Discovery Center includes interactive displays. The History Museum at the Castle features an exhibit on magician Harry Houdini. To the northwest, Gordon Bubolz Nature Preserve has a nature center and trails"
+  },
+  {
+    "name": "Green Bay",
+    "state": "Wisconsin",
+    "county": "Brown",
+    "lat": 44.5579282,
+    "lng": -88.081691,
+    "info": "Green Bay, city, seat (1854) of Brown county, eastern Wisconsin, U.S. It is situated where the Fox River empties into Green Bay (an inlet of Lake Michigan), about 110 miles (180 km) north of Milwaukee. Green Bay’s metropolitan area includes the city of De Pere and the villages of Ashwaubenon, Howard, and Allouez. Papermaking is a primary industry in Green Bay; other manufacturing (papermaking machinery, furniture, and packaging materials), food processing (meat, cheese and other dairy products, and vegetables), health care, insurance, agriculture (dairying), trucking, and tourism (a large casino is nearby) also contribute to the economy. A Great Lakes port of entry with heavy shipping, the city has a large wholesale and distributing business. Britannica"
+  },
+  {
+    "name": "Manitowoc",
+    "state": "Wisconsin",
+    "county": "Manitowoc",
+    "lat": 44.5579282,
+    "lng": -88.081691,
+    "info": "Manitowoc is a city in and the county seat of Manitowoc County, Wisconsin, United States. The city is located on Lake Michigan at the mouth of the Manitowoc River. According to the 2010 census, Manitowoc had a population of 33,736, with over 50,000 residents in the surrounding communities.Wikipedia"
+  },
+  {
+    "name": "Janesville",
+    "state": "Wisconsin",
+    "county": "Rock",
+    "lat": 43.0850975,
+    "lng": -89.4764596,
+    "info": "Computers, Laptops, Printers,Fax Machines, Photocopiers, Backup Power Supply and UPS Systems, Computer Components, including circuit boards, memory cards, Telephones, Cell Phones, CB Radios, CPU’s, Network Servers, Keyboards, Mice and Other Input Devices, Power, Data, Telecom Systems and Components, Cathode Ray Tube"
+  },
+  {
+    "name": "Rockford",
+    "state": "Illinois",
+    "county": "Winnebago",
+    "lat": 42.3352377,
+    "lng": -89.1811087,
+    "info": "Computers, Laptops, Printers,Fax Machines, Photocopiers, Backup Power Supply and UPS Systems, Computer Components, including circuit boards, memory cards, Telephones, Cell Phones, CB Radios, CPU’s, Network Servers, Keyboards, Mice and Other Input Devices, Power, Data, Telecom Systems and Components, Cathode Ray Tube"
+  },
+  {
+    "name": "Chicago",
+    "state": "Illinois",
+    "county": "Cook",
+    "lat": 41.8333925,
+    "lng": -88.0121478,
+    "info": "Recycle: Computers, Laptops, Printers, Fax Machines, Photocopiers, Backup Power Supply and UPS Systems, Computer Components, including circuit boards, memory cards, Telephones, Cell Phones, CB Radios, CPU’s, Network Servers, Keyboards, Mice and Other Input Devices, Power, Data, Telecom Systems and Components, Cathode Ray Tube"
   }
 ]

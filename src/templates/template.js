@@ -111,6 +111,10 @@ const styles = theme => ({
     margin: 20,
     textAlign: "center",
   },
+  njt: {
+    color: "gray",
+    fontFamily: "FunCity",
+  },
 })
 
 class Template extends Component {
@@ -121,7 +125,10 @@ class Template extends Component {
       <Layout>
         <SEO
           title={`Electronics and E-Waste Recycling ${city.name}, ${city.state}`}
-          description={`Computer, server, desktop, controllers, PLC, Recycling ${city.name}, ${city.state}`}
+          description={`Computer, server, desktop, controllers, PLC, E Waste, Electronics Recycling ${city.name}, ${city.state}`}
+          placename={city.name}
+          position={`${city.lat};${city.lng}`}
+          keywords={`Electronics Recycling ${city.name}`}
         />
 
         <div className={classes.header1}>
@@ -296,7 +303,12 @@ class Template extends Component {
               </Card>
             </Grid>
           </Grid>
-
+          <h1>
+            {" "}
+            <span className={classes.njt}>NJT</span> Electronics Recycling{" "}
+            {city.name}
+          </h1>
+          {city.info}
           <div>
             <form
               action={`mailto:nathan@njtautomation.com?subject=E-Waste - ${city.name}`}

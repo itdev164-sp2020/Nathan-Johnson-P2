@@ -15,6 +15,8 @@ import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown"
 import MessageIcon from "@material-ui/icons/Message"
 import EmailIcon from "@material-ui/icons/Email"
 import ArrowBackIosIcon from "@material-ui/icons/ArrowBackIos"
+import AnnouncementIcon from "@material-ui/icons/Announcement"
+
 //CSS
 import "../App.css"
 
@@ -192,6 +194,16 @@ export default function Navbar() {
               <OfflineBoltIcon className={classes.flash} />
             </ListItemIcon>
             <ListItemText>Contact NJT</ListItemText>
+          </ListItem>
+        </Link>
+        <Divider />
+
+        <Link to="/news" style={{ textDecoration: "none" }}>
+          <ListItem button>
+            <ListItemIcon>
+              <AnnouncementIcon />
+            </ListItemIcon>
+            <ListItemText>NEWS</ListItemText>
           </ListItem>
         </Link>
         <Divider />
