@@ -22,10 +22,12 @@ import "../App.css"
 
 const IndexPage = () => (
   <Layout>
-    <SEO title="NJT Automation Salvage" 
-    placename="Milwaukee"
-    keywords="Milwaukee, automation, industrial, electronics, manufacturing, buy, sell"
-    position='43.057806;-88.1075137'/>
+    <SEO
+      title="NJT Automation Salvage"
+      placename="Milwaukee"
+      keywords="Milwaukee, automation, industrial, electronics, manufacturing, buy, sell"
+      position="43.057806;-88.1075137"
+    />
 
     <div className="header">
       <h1> Keeping The Machines Alive </h1>
@@ -103,10 +105,8 @@ const IndexPage = () => (
     </div>
 
     <div className="body">
-      <Link to="/contact" style={{ textDecoration: "none" }}>
-        <div className="wanted" component={Link} to="/contact">
-          <h1>AUTOMATION COMPONENTS WANTED</h1>
-        </div>
+      <Link to="/contact" style={{ textDecoration: "none" }} className="wanted">
+        <h1>AUTOMATION COMPONENTS WANTED</h1>
       </Link>
       <Grid container spacing={2} direction="row">
         <Grid item sm={6} xs={12}>

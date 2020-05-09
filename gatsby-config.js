@@ -3,8 +3,20 @@ module.exports = {
     title: `NJT Automation Salvage and Industrial E-Waste`,
     description: `NJT Automation Salvage wants to purchase surplus manufacturing electronics and recycle commercial e-waste `,
     author: `Nathan Johnson`,
+    contact: {
+      name: "Nathan Johnson",
+      company: "NJT Automation Salvage",
+      address: "2122 N Prospect Ave, Milwaukee, WI 53202",
+    },
   },
   plugins: [
+    {
+      resolve: "gatsby-source-contentful",
+      options: {
+        spaceId: `81u1exxv2tk1`,
+        accessToken: `GtHgaO6gx0U9-DpDlF56hjCmWjjTT9j8ldal5s6ppV0`,
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
