@@ -104,6 +104,17 @@ const useStyles = makeStyles(theme => ({
       cursor: "pointer",
     },
   },
+  logo: {
+    fontFamily: "FunCity",
+    fontSize: "3rem",
+    color: "white",
+    textDecoration: "none",
+    "&:hover": {
+      color: "rgb(255, 238, 0)",
+      cursor: "pointer",
+      textDecoration: "none",
+    },
+  },
 }))
 
 export default function Navbar() {
@@ -226,9 +237,9 @@ export default function Navbar() {
         <AppBar position="static">
           <Toolbar className={classes.Toolbar}>
             <Typography variant="h4" className={classes.title}>
-              <div className="logo">
+              <div>
                 <Tooltip title="Back To Home" placement="bottom-start">
-                  <Link to="/" className="logo">
+                  <Link to="/" className={classes.logo}>
                     NJT
                   </Link>
                 </Tooltip>

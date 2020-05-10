@@ -63,6 +63,13 @@ body {
   margin: 0 auto;
 }
 
+.blogBody {
+  width: "100%";
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ededed;
+}
+
 .header {
   background-image: url(./images/cityscape.jpg);
   background-position: center;
