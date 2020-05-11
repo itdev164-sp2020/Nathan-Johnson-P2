@@ -1,3 +1,7 @@
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
+
 module.exports = {
   siteMetadata: {
     title: `NJT Automation Salvage and Industrial E-Waste`,
@@ -13,8 +17,8 @@ module.exports = {
     {
       resolve: "gatsby-source-contentful",
       options: {
-        spaceId: `81u1exxv2tk1`,
-        accessToken: `GtHgaO6gx0U9-DpDlF56hjCmWjjTT9j8ldal5s6ppV0`,
+        spaceId: `${process.env.SPACE_ID}`,
+        accessToken: `${process.env.ACCESS_TOKEN}`,
       },
     },
     `gatsby-plugin-react-helmet`,

@@ -13,7 +13,6 @@ import plcIcon from "../images/Icons/plcIcon.jpg"
 import Grid from "@material-ui/core/Grid"
 import CardMedia from "@material-ui/core/CardMedia"
 import Card from "@material-ui/core/Card"
-import CardActions from "@material-ui/core/CardActions"
 import CardContent from "@material-ui/core/CardContent"
 
 import Typography from "@material-ui/core/Typography"

@@ -17,7 +17,7 @@ const BlogPost = ({ data }) => {
         <img
           style={{ width: "50%", margin: "0 auto", display: "block" }}
           src={data.contentfulBlogPost.heroImage.fluid.src}
-          alt="Hero"
+          alt={title}
         />
         <h1>{title}</h1>
         <div
